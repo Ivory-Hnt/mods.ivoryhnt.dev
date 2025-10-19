@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>The Temple of Ra | Ivory Hnt Worlds</title>
+    <meta name="description" content="Download The Temple of Ra Minecraft world.">
+    
+    <link rel="icon" type="image/x-icon" href="https://ivoryhnt.dev/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="https://ivoryhnt.dev" class="logo" aria-label="Ivory Hnt Home">.</a>
+            <ul class="nav-links">
+                <li><a href="https://ivoryhnt.dev/#about">About</a></li>
+                <li><a href="https://ivoryhnt.dev/#projects">Projects</a></li>
+                <li><a href="https://ivoryhnt.dev/#blog">Blog</a></li>
+                <li><a href="https://ivoryhnt.dev/#reviews">Reviews</a></li>
+                <li><a href="https://ivoryhnt.dev/photography">Photography</a></li>
+                <li><a href="https://ivoryhnt.dev/#connect">Connect</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="download-page-section">
+            
+            <div class="image-gallery">
+                <img src="./assets/image-1.webp" alt="World screenshot 1" loading="lazy">
+                <img src="./assets/image-2.webp" alt="World screenshot 2" loading="lazy">
+                <img src="./assets/image-3.webp" alt="World screenshot 3" loading="lazy">
+            </div>
+
+            <h1 class="download-title">The Temple of Ra</h1>
+
+            <div class="download-buttons">
+                <a href="/path/to/your/world.zip" class="cta-button download-btn" download>
+                    <i class="fas fa-globe"></i> Download (World)
+                </a>
+                <a href="/path/to/your/structure.schematic" class="cta-button download-btn secondary" download>
+                    <i class="fas fa-cubes"></i> Download (.schematic)
+                </a>
+            </div>
+
+            <div class="download-description">
+                <h2>About this World</h2>
+                <p>
+                    An ancient desert temple has been unearthed. Legends say it holds the treasure of the sun god Ra, but it is protected by deadly traps and mind-bending puzzles.
+                </p>
+                <p>
+                    This is a single-player adventure map designed for Minecraft 1.20.1. It should take approximately 30-45 minutes to complete.
+                </p>
+                
+                <h3>Rules:</h3>
+                <ul>
+                    <li>Play in Adventure Mode</li>
+                    <li>Set brightness to Moody</li>
+                    <li>No cheating (obviously!)</li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="connect">
+        <div class="footer-content">
+             <div class="copyright">
+                &copy; <span id="copyright-year"></span> Ivory Hnt. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- Navigation ---
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            hamburger.classList.toggle('active');
+        });
+        // --- Copyright Year ---
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
