@@ -1,0 +1,38 @@
+[
+  {
+    "id": "beautifully-optimised",
+    "title": "Beautifully Optimised",
+    "description": "A performance and graphics-focused modpack. Experience Minecraft like never before.",
+    "previewImage": "/mods/beautifully-optimised/assets/preview.webp",
+    "pageUrl": "/mods/beautifully-optimised/mod.html",
+    "type": "modpack",
+    "lastUpdated": "2025-10-18"
+  },
+  {
+    "id": "the-temple-of-ra",
+    "title": "The Temple of Ra",
+    "description": "An ancient desert temple full of puzzles, traps, and a great treasure. Can you survive?",
+    "previewImage": "/worlds/the-temple-of-ra/assets/preview.webp",
+    "pageUrl": "/worlds/the-temple-of-ra/world.html",
+    "type": "world",
+    "lastUpdated": "2025-09-22"
+  },
+  {
+    "id": "skibidi-world",
+    "title": "Skibidi World",
+    "description": "A survival-friendly world download featuring massive custom builds. (Yes, really.)",
+    "previewImage": "/worlds/skibidi-world/assets/preview.webp",
+    "pageUrl": "/worlds/skibidi-world/world.html",
+    "type": "world",
+    "lastUpdated": "2025-08-01"
+  },
+  {
+    "id": "sodium-plus",
+    "title": "Sodium+",
+    "description": "A lightweight modpack that just adds Sodium, Iris, and essential QOL features.",
+    "previewImage": "https://i.imgur.com/f1460b.png",
+    "pageUrl": "/mods/sodium-plus/mod.html",
+    "type": "modpack",
+    "lastUpdated": "2025-10-19"
+  }
+]
